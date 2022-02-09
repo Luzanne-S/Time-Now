@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"/>
+    <script src="index.js" defer></script>
     <title>Pricing</title>
 </head>
 <body>
@@ -37,16 +38,16 @@
      <div class="pricing-main">
     <h1 class="pricing-h1">Flexible Plans for Everyone</h1>
      <p class="pricing-p">Our plans are made for everyone.Whether you're just starting out on social media, or have been on there for a long time, we have a plan that's right for you.</p>
-     <p class="toggle-p"><strong>Billed Monthly</strong>
+     <span class="toggle-p"><strong class="toggle-strong">Billed Monthly</strong>
         <label class="switch">
         <input type="checkbox" checked>
         <span class="slider round"></span>
-      </label> Billed Yearly</p>
+      </label> <strong class="toggle-light">Billed Yearly</strong></span>
      </div> 
      <div class="price">
         <!--First Price Plan-->
      <div class="first-plan">
-     <p><strong>$4</strong>/mo</p>
+     <p><strong  class="amount">$4</strong>/mo</p>
      <p>Perfect plan if you're just starting out.</p>
      <hr/>
      <p><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,7 +66,7 @@
      </div>
      <!--Second Price Plan-->
      <div class="second-plan">
-      <p><strong>$12</strong>/mo</p>
+      <p><strong class="amount">$12</strong>/mo</p>
       <p>Perfect plan if you're a heavy user of social media.</p>
       <hr/>
       <p><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +89,7 @@
      </div>
      <!--Third Price Plan-->
      <div class="third-plan">
-      <p><strong>$7</strong>/mo</p>
+      <p><strong  class="amount">$7</strong>/mo</p>
       <p>Perfect plan if you're just starting out.</p>
       <hr/>
       <p><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +136,7 @@
        <div class="footer-column4">
       <strong>Try TweetNow</strong>
       <input type="email" placeholder="Email Address"/>
-      <button class="footer-btn">Start Scheduling</button>
+      <button class="pricing-footer-btn">Start Scheduling</button>
        </div> 
       </div>  
     </footer>
