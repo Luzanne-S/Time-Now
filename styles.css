@@ -91,6 +91,16 @@ a{
     width:78%;
   
 }
+.mobile-menu a {
+  text-decoration: none;
+ margin-left:-25%;
+ color: hsl(213, 9%, 39%) ;
+}
+.mobile-menu li{
+  font-size: 18px;
+  padding-bottom: 8%;
+  text-align: center;
+}
 .main-content{
     display: flex;
     flex-direction: row;
@@ -249,8 +259,14 @@ input{
     display:block;
   
 }
+nav{
+  display: none;
+}
 #hamburger-menu{
   display: block;
+  float:right;
+  margin-top: -7%;
+  margin-right: 34px;
 }
 .nav-links{
   display: none;
