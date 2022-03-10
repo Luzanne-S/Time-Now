@@ -195,7 +195,7 @@ input{
 }
 .footer-btn{
   position: absolute;
-  bottom: -895px;
+  bottom: -863px;
   right:274px;
   z-index: 2;
 }
@@ -300,7 +300,7 @@ input{
   }
   .pricing-footer-btn{
     position: absolute;
-    bottom: -306px;
+    bottom: -274px;
     right:274px;
     z-index: 2;
   }
